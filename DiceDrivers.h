@@ -3,17 +3,17 @@
 
 
 #define  FAIL 				   0
-#define  DIGITOK		       1
+#define  DIGITOK		           1
 #define  DIGITNOK			   0
 
 
 enum MenuPlace
 {
-		BaseMenu,
-		PlayMenu,
-		StopMenu,
-		LearnGameMenu,
-		AboutGameMenu
+   BaseMenu,
+   PlayMenu,
+   StopMenu,
+   earnGameMenu,
+   AboutGameMenu
 };
 
 int  RollDice(void);
